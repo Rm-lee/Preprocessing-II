@@ -171,23 +171,53 @@ img {
   margin: 0 auto;
 }
 nav {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  border-bottom: 2px dashed #C0C0C0;
+}
+nav .nav-div {
+  width: 800px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
   font-size: 2rem;
   padding: 20px 0;
-  border-bottom: 2px dashed #C0C0C0;
+}
+@media (max-width: 505px) {
+  nav .nav-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+nav .nav-div .nav-a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 40%;
+}
+@media (max-width: 505px) {
+  nav .nav-div .nav-a {
+    width: 100%;
+  }
+}
+nav .nav-div .nav-a :nth-child(4) {
+  margin-right: 30px;
 }
 nav h2 {
   padding: 10px 0;
   font-size: 4rem;
-  width: 60%;
 }
 nav a {
   text-decoration: none;
   color: black;
+  font-size: 1.5rem;
 }
 .footer {
   width: 100%;
@@ -203,6 +233,11 @@ nav a {
 .home {
   width: 1000px;
 }
+@media (max-width: 505px) {
+  .home {
+    width: 100%;
+  }
+}
 .home header {
   display: flex;
   flex-wrap: wrap;
@@ -211,6 +246,11 @@ nav a {
 }
 .home header img {
   width: 100%;
+}
+@media (max-width: 505px) {
+  .home header img {
+    height: 50%;
+  }
 }
 .home header .welcome {
   margin: 20px 0;
@@ -222,13 +262,32 @@ nav a {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+@media (max-width: 505px) {
+  .home .content-section {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .home .content-section .text-content {
   width: 48%;
   padding-right: 1%;
 }
+@media (max-width: 505px) {
+  .home .content-section .text-content {
+    width: 100%;
+  }
+}
 .home .content-section .img-content {
   width: 48%;
   padding-left: 1%;
+}
+@media (max-width: 505px) {
+  .home .content-section .img-content {
+    width: 98%;
+    padding-left: 1%;
+  }
 }
 .home .content-section .img-content img {
   border-radius: 10px;
@@ -263,8 +322,9 @@ nav a {
   width: 80%;
   background: #17A2B8;
   text-align: center;
-  font-size: 2.5rem;
-  border-radius: 5px;
+  font-size: 2.2rem;
+  border-radius: 15px;
+  padding: 10px 20px;
 }
 .home .content-pick .destination {
   width: 30%;
