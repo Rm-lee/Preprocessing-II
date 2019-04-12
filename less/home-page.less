@@ -1,5 +1,24 @@
 .home {
+  width:1000px;
+  header{
+    .wrap(@flex, @wrap);
+    align-content: center;
+    width:100%;
+    
+    
 
+    
+    
+
+    img{
+      width:100%;
+      
+    }
+    .welcome{
+      margin:@spacing 0;
+      border-bottom:2px dashed @navigation-border;
+    }
+  }
   .content-section {
     margin: 30px 0;
     display: flex;
@@ -41,6 +60,7 @@
   .content-destination {
     width: 75%;
     margin: 0 auto 30px;
+ 
 
     img {
       border-radius: 10px;
@@ -48,6 +68,9 @@
   }
 
   .content-pick {
+    .btn{
+      .btn-style(@btn-color,@btn-width,@button-bg);
+    }
     padding-top: 30px;
     border-top: 2px dashed @navigation-border;
     display: flex;
