@@ -81,14 +81,29 @@
   .content-destination {
     width: 75%;
     margin: 0 auto 30px;
- 
+    @media @mobile{
+      width: 90%;
+     
+    }
 
     img {
       border-radius: 10px;
     }
   }
-
+ .destination{
+  @media @mobile{
+    width: 100%;
+   
+  }
+ }
   .content-pick {
+    @media @mobile{
+      flex-direction:column;
+      width:100%;
+      
+      
+    }
+    
     .btn{
       .btn-style(@btn-color,@btn-width,@button-bg);
     }
