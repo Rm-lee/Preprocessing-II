@@ -188,7 +188,7 @@ nav .nav-div {
   font-size: 2rem;
   padding: 20px 0;
 }
-@media (max-width: 505px) {
+@media (max-width: 499px) {
   nav .nav-div {
     display: flex;
     flex-direction: column;
@@ -202,7 +202,7 @@ nav .nav-div .nav-a {
   justify-content: space-between;
   width: 40%;
 }
-@media (max-width: 505px) {
+@media (max-width: 499px) {
   nav .nav-div .nav-a {
     width: 100%;
   }
@@ -230,10 +230,7 @@ nav a {
   font-size: 1.6rem;
   padding: 20px;
 }
-.home {
-  width: 1000px;
-}
-@media (max-width: 505px) {
+@media (max-width: 499px) {
   .home {
     width: 90%;
   }
@@ -247,11 +244,6 @@ nav a {
 .home header img {
   width: 100%;
 }
-@media (max-width: 505px) {
-  .home header img {
-    height: 50%;
-  }
-}
 .home header .welcome {
   margin: 20px 0;
   border-bottom: 2px dashed #C0C0C0;
@@ -262,7 +254,7 @@ nav a {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-@media (max-width: 505px) {
+@media (max-width: 499px) {
   .home .content-section {
     width: 100%;
     flex-direction: column;
@@ -274,7 +266,7 @@ nav a {
   width: 48%;
   padding-right: 1%;
 }
-@media (max-width: 505px) {
+@media (max-width: 499px) {
   .home .content-section .text-content {
     width: 90%;
   }
@@ -283,7 +275,7 @@ nav a {
   width: 48%;
   padding-left: 1%;
 }
-@media (max-width: 505px) {
+@media (max-width: 499px) {
   .home .content-section .img-content {
     width: 90%;
     padding-left: 1%;
@@ -297,7 +289,7 @@ nav a {
   padding-bottom: 30px;
   border-bottom: 2px dashed #C0C0C0;
 }
-@media (max-width: 505px) {
+@media (max-width: 499px) {
   .home .inverse-content {
     display: flex;
     flex-direction: column-reverse;
@@ -315,7 +307,7 @@ nav a {
   width: 75%;
   margin: 0 auto 30px;
 }
-@media (max-width: 505px) {
+@media (max-width: 499px) {
   .home .content-destination {
     width: 90%;
   }
@@ -329,7 +321,7 @@ nav a {
   display: flex;
   justify-content: space-between;
 }
-@media (max-width: 505px) {
+@media (max-width: 499px) {
   .home .content-pick {
     flex-direction: column;
     width: 100%;
@@ -349,7 +341,7 @@ nav a {
   width: 30%;
   margin-bottom: 30px;
 }
-@media (max-width: 505px) {
+@media (max-width: 499px) {
   .home .content-pick .destination {
     width: 70%;
     display: flex;
