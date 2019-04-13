@@ -233,6 +233,9 @@ nav a {
   .home {
     width: 90%;
   }
+  .home p {
+    font-size: 1.2rem;
+  }
 }
 .home header {
   display: flex;
